@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Evergreen Health - Beyond Healthcare">
+    <title>Evergreen Health - Beyond Healthcare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" href="logo_mark_black.png">
+</head>
+<body>
+    <header>
+        <img src="logo_mark_black.png" alt="Evergreen Health" class="logo">
+        <nav class="main-nav">
+            <a href="#thesis" class="nav-link">Thesis</a>
+            <a href="#hardware" class="nav-link">Hardware</a>
+            <a href="#software" class="nav-link">Software</a>
+            <a href="#team" class="nav-link">Team</a>
+        </nav>
+        <div class="header-right">
+            <div class="contact">info@evergreenhlth.com</div>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"/>
+                    <line x1="12" y1="1" x2="12" y2="3"/>
+                    <line x1="12" y1="21" x2="12" y2="23"/>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                    <line x1="1" y1="12" x2="3" y2="12"/>
+                    <line x1="21" y1="12" x2="23" y2="12"/>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                </svg>
+                <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="main-container snap-section" id="hero">
+        <!-- Arm Container -->
+        <div class="arm-container">
+            <div class="arm-wrapper">
+                <img src="website_hand.png" alt="Pointing hand" class="arm-image">
+            </div>
+        </div>
+
+        <!-- Mist Overlay -->
+        <div class="mist-overlay"></div>
+
+        <!-- Left Content -->
+        <div class="left-content scroll-text">
+            <div class="label-text">Evergreen Health</div>
+            <div class="main-text">Beyond Healthcare</div>
+            <div class="label-text">Live 100 healthy years</div>
+        </div>
+
+        <!-- Right Content -->
+        <div class="right-content scroll-text">
+            <div class="mission-label">Our Mission Is To:</div>
+            <div class="mission-rotator" id="missionRotator">
+                <div class="mission-item active">Save 30M lives each year</div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Thesis Section -->
+    <section id="thesis" class="content-section snap-section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-prefix">OUR</span>
+                <h2 class="section-title">Thesis</h2>
+            </div>
+            <div class="section-content">
+                <p>Everyone can live 100 healthy, happy years... Not through better pills or smarter surgeries, but by fundamentally rethinking how and when disease is detected.</p>
+                
+                <p>The root cause of most disease is chronic inflammation. Chronic Inflammation is a vicious cycle that begins as a symptom, then turns into the primary driver of more than 200 diseases. It causes more than 30 million deaths globally each year and affects 2-3 billion people worldwide. It's the common thread connecting autoimmune disease, heart attacks, Alzheimer's, depression, diabetes, and cancer.</p>
+                
+                <p>By monitoring inflammation, we offer true preventative healthcare. Our platform delivers lab-grade results from a small blood sample (10μL) in under 10 minutes, for under $10. It requires a simple fingerstick, with no prep or training needed so that anyone can do it. When blood testing is this fast and affordable it changes everything; you can do it weekly or daily, from your home, instead of once a year.</p>
+                
+                <p>Frequent testing unlocks the true potential of AI in healthcare. You can't train predictive models or establish personal baselines with one or two tests per year; you need weekly or daily data. As we collect thousands of data points across millions of users, our AI learns to predict flares, optimize interventions, and spot patterns invisible to human clinicians. Every test makes the platform smarter. Every user generates insights that benefit the product and other users.</p>
+                
+                <p>We're not just making testing faster and cheaper: we're creating the data infrastructure that shifts healthcare from reactive legacy systems to proactive and personalized care. This is the moment when proactive healthcare replaces legacy systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hardware Section -->
+    <section id="hardware" class="content-section snap-section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-prefix">TECHNOLOGY</span>
+                <h2 class="section-title">Hardware</h2>
+            </div>
+            <div class="section-content">
+                <p>We invented a way to shrink a lab-grade test onto a fingernail-sized chip. Light propagates through embedded waveguides, and when cytokines bind to the chip surface, we measure changes in fluorescence. No expensive lasers. No trained technicians. No waiting. Just affordable lab grade precision.</p>
+                
+                <p><strong>The Result:</strong></p>
+                <ul>
+                    <li>10-40x cost reduction vs. existing platforms (our tests: $10 vs. $100-400)</li>
+                    <li>Results in under 10 minutes (vs. days for lab tests)</li>
+                    <li>At-home use (no venous draw, no centrifugation, no technical expertise)</li>
+                    <li>Lab-grade accuracy (97.5% equivalency to Luminex, the gold standard)</li>
+                    <li>Potential for 32 biomarkers on a single chip; 5 measured right now</li>
+                    <li>Biomarker agnostic; technology acts as "ELISA on a chip"</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Software Section -->
+    <section id="software" class="content-section snap-section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-prefix">TECHNOLOGY</span>
+                <h2 class="section-title">Software</h2>
+            </div>
+            <div class="section-content">
+                <p>Our AI platform, CORE (Cytokine Optimization and Response Engine), transforms raw biomarker data into actionable health insights. By combining frequent testing with machine learning, we create a comprehensive inflammation monitoring system that learns and improves with every data point.</p>
+                
+                <p><strong>Key Capabilities:</strong></p>
+                <ul>
+                    <li>Predictive Analytics: Forecasts inflammatory flares 24-72 hours before symptoms appear</li>
+                    <li>Personalized Baselines: Establishes individual normal ranges, detecting deviations that standard reference ranges miss</li>
+                    <li>Intervention Optimization: Tracks how lifestyle changes, medications, and treatments affect inflammation markers in real-time</li>
+                    <li>Pattern Recognition: Identifies correlations between biomarkers, symptoms, and environmental factors across millions of users</li>
+                    <li>Clinical Decision Support: Provides physicians with trend analysis and early warning signals</li>
+                    <li>Continuous Learning: Improves accuracy as the dataset grows, benefiting all users</li>
+                </ul>
+                
+                <p>The combination of frequent at-home testing and AI-powered analysis creates a feedback loop impossible with traditional lab testing. Users gain unprecedented visibility into their inflammatory status, while our platform continuously refines its predictions and recommendations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="content-section snap-section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-prefix">OUR</span>
+                <h2 class="section-title">Team</h2>
+            </div>
+            <div class="section-content">
+                <p><strong>Dylan Brownstein, CEO</strong><br>Serial entrepreneur. Previously founded VC backed, AI-driven SaaS company and media company. Former investor at Karcher Ventures. Consulted for Google, Reddit, YMCA. Strengths in AI product development and go-to-market.</p>
+                
+                <p><strong>Dr. Reuven Duer, PhD, Chief Science Officer</strong><br>Inventor of the Q-SENS platform. PhD in Physics from Technion. 15+ years leading medical device engineering teams. 22 patents. Led BARDA-funded prototype development.</p>
+                
+                <p><strong>Dr. Aren Giske, MD, Chief Operations Officer</strong><br>Twice-appointed medical director. Board Member at Kadlec Medical Center. Occupational and Environmental Medicine specialist. Deep expertise in clinical implementation and population health.</p>
+                
+                <p><strong>Michael Bumann, Chief Strategy Officer</strong><br>Category-creating innovator and seasoned entrepreneur with a focus on helping hospitals and specialty medical providers convert aged and future motor vehicle accident (MVA) accounts into reliable, scalable revenue. Founder/CEO of Red Dot Management.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Device Showcase Section -->
+    <section class="device-showcase snap-section">
+        <h2 class="showcase-background-text">Welcome&nbsp;to<br>the Future</h2>
+        <div class="device-image-container">
+            <img src="device_reader.png" alt="Q-SENS Device" class="device-image">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="logo_mark_black.png" alt="Evergreen Health">
+            </div>
+            
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Evergreen Health</h3>
+                    <p>Transforming healthcare through inflammation monitoring.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: <a href="mailto:info@evergreenhth.com">info@evergreenhth.com</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <p><a href="#thesis">Our Thesis</a></p>
+                    <p><a href="#hardware">Hardware</a></p>
+                    <p><a href="#software">Software</a></p>
+                    <p><a href="#team">Team</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <p><a href="#">Privacy Policy</a></p>
+                    <p><a href="#">Terms of Service</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Evergreen Health. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
