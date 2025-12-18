@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Evergreen Health - Beyond Healthcare">
+    <title>Evergreen Health - Beyond Healthcare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" href="logo_mark_black.png">
+</head>
+<body>
+    <header>
+        <a href="#hero" class="logo-link">
+            <img src="logo_mark_black.png" alt="Evergreen Health" class="logo">
+        </a>
+        <nav class="main-nav">
+            <a href="#thesis" class="nav-link">Thesis</a>
+            <a href="#hardware" class="nav-link">Hardware</a>
+            <a href="#software" class="nav-link">Software</a>
+            <a href="#team" class="nav-link">Team</a>
+        </nav>
+        <div class="header-right">
+            <div class="contact"><a href="mailto:info@evergreenhlth.com">info@evergreenhlth.com</a></div>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"/>
+                    <line x1="12" y1="1" x2="12" y2="3"/>
+                    <line x1="12" y1="21" x2="12" y2="23"/>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                    <line x1="1" y1="12" x2="3" y2="12"/>
+                    <line x1="21" y1="12" x2="23" y2="12"/>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                </svg>
+                <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Side Navigation Dots -->
+    <nav class="side-nav" id="sideNav">
+        <a href="#thesis" class="side-nav-dot" data-section="thesis" aria-label="Go to Thesis">
+            <span class="dot"></span>
+            <span class="label">Thesis</span>
+        </a>
+        <a href="#hardware" class="side-nav-dot" data-section="hardware" aria-label="Go to Hardware">
+            <span class="dot"></span>
+            <span class="label">Hardware</span>
+        </a>
+        <a href="#software" class="side-nav-dot" data-section="software" aria-label="Go to Software">
+            <span class="dot"></span>
+            <span class="label">Software</span>
+        </a>
+        <a href="#team" class="side-nav-dot" data-section="team" aria-label="Go to Team">
+            <span class="dot"></span>
+            <span class="label">Team</span>
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="main-container snap-section" id="hero">
+        <div class="arm-container">
+            <div class="arm-wrapper">
+                <img src="website_hand.png" alt="Pointing hand" class="arm-image">
+            </div>
+        </div>
+        <div class="mist-overlay"></div>
+        <div class="left-content scroll-text">
+            <div class="label-text">Evergreen Health</div>
+            <div class="main-text">Beyond Healthcare</div>
+            <div class="label-text">Live 100 healthy years</div>
+        </div>
+        <div class="right-content scroll-text">
+            <div class="mission-label">Our Mission Is To:</div>
+            <div class="mission-rotator" id="missionRotator">
+                <div class="mission-item active">Save 30M lives each year</div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Thesis Section -->
+    <section id="thesis" class="content-section snap-section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-prefix">OUR</span>
+                <h2 class="section-title">Thesis</h2>
+            </div>
+            <div class="section-content">
+                <p><strong>Everyone can live 100 healthy, happy years...</strong></p>
+                
+                <p>Not through better pills or smarter surgeries, but by fundamentally rethinking how and when disease is detected.</p>
+                
+                <p><strong>The root cause of most disease is chronic inflammation.</strong> Chronic Inflammation is a vicious cycle that begins as a symptom, then turns into the primary driver of more than 200 diseases. It causes more than 30 million deaths globally each year and affects 2-3 billion people worldwide. It's the common thread connecting autoimmune disease, heart attacks, Alzheimer's, depression, diabetes, and cancer.</p>
+                
+                <p><strong>By monitoring inflammation, we offer true preventative healthcare.</strong> Our platform delivers lab-grade results from a small blood sample (10μL) in under 10 minutes, for under $10. It requires a simple fingerstick, with no prep or training needed so that anyone can do it. When blood testing is this fast and affordable it changes everything; you can do it weekly or daily, from your home, instead of once a year.</p>
+                
+                <p><strong>Frequent testing unlocks the true potential of AI in healthcare.</strong> You can't train predictive models or establish personal baselines with one or two tests per year; you need weekly or daily data. As we collect thousands of data points across millions of users, our AI learns to predict flares, optimize interventions, and spot patterns invisible to human clinicians. Every test makes the platform smarter. Every user generates insights that benefit the product and other users.</p>
+                
+                <p>We're not just making testing faster and cheaper: we're creating the data infrastructure that shifts healthcare from reactive legacy systems to proactive and personalized care.</p>
+                
+                <p><strong>This is the moment when proactive healthcare replaces legacy systems.</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hardware Section -->
+    <section id="hardware" class="content-section snap-section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-prefix">TECHNOLOGY</span>
+                <h2 class="section-title">Hardware</h2>
+            </div>
+            <div class="section-content">
+                <p>We miniaturized a laboratory grade immunoassay onto a silicon photonic chip roughly the size of a fingernail. By collapsing the optics, fluidics, and detection into a solid-state format, we've achieved sensitivity that previously required expensive lab equipment, but without the bulky lasers, mechanical parts, or complex calibration. The platform works with microliter-scale samples, needs no specialized handling, and can test virtually any biomarker using standard immunoassay chemistry. It's essentially ELISA on a chip, manufactured at semiconductor scale with consumer-level economics.</p>
+                
+                <p><strong>This results in:</strong></p>
+                <ul>
+                    <li>10-40x cost reduction</li>
+                    <li>Results in under 10 minutes</li>
+                    <li>Useable at-home & point of care</li>
+                    <li>Lab-grade accuracy</li>
+                    <li>Biomarker agnostic; can test virtually any protein, hormone, or immune marker</li>
+                    <li>Up to 32 biomarkers per test</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Software Section -->
+    <section id="software" class="content-section snap-section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-prefix">TECHNOLOGY</span>
+                <h2 class="section-title">Software</h2>
+            </div>
+            <div class="section-content">
+                <p><strong>The Software: AI that Gets Smarter with Every Test</strong></p>
+                
+                <p>A single cytokine value is meaningless. Is IL-6 at 15 pg/mL good or bad? It depends on your baseline, age, stress, time of day, and dozens of other factors. Traditional labs give you one number with a population-wide "normal range" that can't predict your future. We're building personalized immune intelligence from high-frequency longitudinal data.</p>
+                
+                <p><strong>Our AI enables:</strong></p>
+                <ul>
+                    <li><strong>Personalized Baselines:</strong> Your first tests begin to establish your normal, not the average person's. We learn your patterns: circadian rhythms, stress response, exercise recovery. Every test after is measured against your unique baseline, detecting shifts days or weeks before symptoms.</li>
+                    <li><strong>Cytokine Signatures:</strong> Diseases create multi-dimensional patterns across biomarkers. Viral infections look different from autoimmune flares, which look different from cardiovascular inflammation. Machine learning models build longitudinal signatures from 5 cytokines simultaneously.</li>
+                    <li><strong>Personalized Predictions:</strong> With enough data, we predict instead of just measure. When will your next flare happen? Is this fatigue overtraining or early infection? Should you adjust medication this week? Models trained on millions of measurements make insightful predictions personalized to you.</li>
+                    <li><strong>Population-Level Insights:</strong> Weekly biomarker data across tens of thousands of people has never existed. What immune patterns precede Alzheimer's by years? Can we predict treatment response before patients start medication? What interventions reduce biological age? <em>Access to this data will catalyze the largest advancements to healthcare since antibiotics.</em></li>
+                    <li><strong>Personalized Lifestyle and Nutrition Guidance:</strong> AI interprets ongoing biomarker trends to recommend data-driven adjustments in diet, activity, sleep, and supplements, helping individuals move beyond guesswork and over-supplementation by objectively measuring which interventions are beneficial, neutral, or unnecessary.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="content-section snap-section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-prefix">OUR</span>
+                <h2 class="section-title">Team</h2>
+            </div>
+            <div class="section-content">
+                <div class="team-grid">
+                    <!-- Dylan Brownstein -->
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="Dylan_Picture.jpg" alt="Dylan Brownstein">
+                        </div>
+                        <div class="team-info">
+                            <div class="name">Dylan Brownstein</div>
+                            <div class="title">CEO</div>
+                            <p class="bio">Serial entrepreneur. Previously founded VC backed, AI-driven SaaS company and media company. Former investor at Karcher Ventures. Consulted for Google, Reddit, YMCA. Strengths in AI product development and go-to-market.</p>
+                            <a href="https://www.linkedin.com/in/dylan-brownstein/" target="_blank" rel="noopener noreferrer" class="linkedin-link" aria-label="Dylan Brownstein's LinkedIn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Dr. Reuven Duer -->
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="Reuven_Picture.jpg" alt="Dr. Reuven Duer">
+                        </div>
+                        <div class="team-info">
+                            <div class="name">Dr. Reuven Duer, PhD</div>
+                            <div class="title">Chief Science Officer</div>
+                            <p class="bio">Inventor of the Q-SENS platform. PhD in Physics from Technion. 15+ years leading medical device engineering teams. 22 patents. Led BARDA-funded prototype development.</p>
+                            <a href="https://www.linkedin.com/in/reuvenduer/" target="_blank" rel="noopener noreferrer" class="linkedin-link" aria-label="Dr. Reuven Duer's LinkedIn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Dr. Aren Giske -->
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="Aren_Picture.jpg" alt="Dr. Aren Giske">
+                        </div>
+                        <div class="team-info">
+                            <div class="name">Dr. Aren Giske, MD</div>
+                            <div class="title">Chief Operations Officer</div>
+                            <p class="bio">Twice-appointed medical director. Board Member at Kadlec Medical Center. Occupational and Environmental Medicine specialist. Deep expertise in clinical implementation and population health.</p>
+                            <a href="https://www.linkedin.com/in/arengiske/" target="_blank" rel="noopener noreferrer" class="linkedin-link" aria-label="Dr. Aren Giske's LinkedIn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Michael Bumann -->
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="Michael_Picture.jpg" alt="Michael Bumann">
+                        </div>
+                        <div class="team-info">
+                            <div class="name">Michael Bumann</div>
+                            <div class="title">Chief Strategy Officer</div>
+                            <p class="bio">Category-creating innovator and seasoned entrepreneur with a focus on helping hospitals and specialty medical providers convert aged and future motor vehicle accident (MVA) accounts into reliable, scalable revenue. Founder/CEO of Red Dot Management.</p>
+                            <a href="https://www.linkedin.com/in/michael-bumann/" target="_blank" rel="noopener noreferrer" class="linkedin-link" aria-label="Michael Bumann's LinkedIn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Device Showcase Section -->
+    <section class="device-showcase">
+        <h2 class="showcase-background-text">From&nbsp;Reactive<br>to Proactive</h2>
+        <div class="device-image-container">
+            <img src="device_reader.png" alt="Q-SENS Device" class="device-image">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="logo_mark_black.png" alt="Evergreen Health">
+                </div>
+                <h3>Evergreen</h3>
+            </div>
+            
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: <a href="mailto:info@evergreenhlth.com">info@evergreenhlth.com</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <p><a href="#thesis">Our Thesis</a></p>
+                    <p><a href="#hardware">Hardware</a></p>
+                    <p><a href="#software">Software</a></p>
+                    <p><a href="#team">Team</a></p>
+                </div>
+                
+                <div class="footer-section">
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <p><a href="privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a></p>
+                    <p><a href="terms.html" target="_blank" rel="noopener noreferrer">Terms of Service</a></p>
+                    <p><a href="accessibility.html" target="_blank" rel="noopener noreferrer">Accessibility Statement</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
